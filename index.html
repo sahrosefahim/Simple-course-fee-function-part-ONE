@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./daynamic.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Simple JS calculation Part-1</title>
+</head>
+<body>
+<!-- Calculate from -->
+    <section id="calculate">
+      
+      <form action="#" >
+        <h1>Mamurjor.course</h1>
+        <label for="">Name: </label><br>
+        <input type="text" placeholder="full name" id="name"><br><br>
+  
+        <label for="">Cell: </label><br>
+        <input type="number" placeholder="Phone Number" id="cell"><br><br>
+
+        <label for="">Eamil: </label><br>
+        <input type="email" placeholder="write a email" id="email"><br><br>
+
+        <label for="">Address: </label><br>
+        <input type="text" placeholder="wriite a address" id="address"><br><br>
+
+        <label for="">How much will it take: </label><br>
+        <input type="number" placeholder="write a amount" id="takeAmount"><br><br>
+
+        <label for="">Par month installment: </label><br>
+        <input type="number" placeholder="write a amount" id="installment"><br><br>
+
+        
+       <button class="btn" onclick="calculatePart1()">Get Invoice</button>
+      </form>
+    </section>
+    
+<!-- Calculate Invoice -->
+    <section id="invoice">
+         
+        <h1>YOUR INVOICE</h1>
+        <p>Full stack wordpress developer😎</p>
+        <p class="spn" id="ShowName"><b>Your name:</b></p><br>
+        <p class="spn" id="ShowNumber"><b>Your Phone Number:</b></p><br>
+        <p class="spn" id="ShowEmail"><b>Your Email:</b></p><br>
+        <p class="spn" id="ShowParMonthPay"><b>You have to pay par month</b></p><br>
+
+    </section>
+
+</body>
+</html>
